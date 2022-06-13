@@ -9,7 +9,7 @@ import static io.restassured.RestAssured.given;
 public class CheckAnnotation {
 
     @Test
-    public void testMplMetricsApi() {
+    public void testAnnotation() {
 
         given().get("/api/v1/test")
                 .then()
