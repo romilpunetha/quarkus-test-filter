@@ -13,6 +13,6 @@ public class CheckAnnotation {
 
         given().get("/api/v1/test")
                 .then()
-                .statusCode(200);
+                .statusCode(204);
     }
 }
